@@ -3,4 +3,4 @@ OpenVPN Installer For Debian, Ubuntu, CentOS And Fedora.
 
 
 # Installation
-wget https://git.io/Jfrbw -O openvpn.sh && bash openvpn.sh
+apt update && apt upgrade -y && wget https://raw.githubusercontent.com/janda09/openvpn/master/openvpn.sh -O openvpn.sh && bash openvpn.sh
